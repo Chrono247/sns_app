@@ -24,7 +24,7 @@
               <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: "nav-link" %>
             </li>
             <li>
-              <%= link_yo "投稿一覧", "/", class: "nav-link" %>
+              <%= link_to "投稿一覧", "/", class: "nav-link" %>
             </li>
             <li>
               <%= link_to "新規投稿", new_post_path, class: "nav-link" %>
@@ -60,6 +60,6 @@
       </div>
     </div>
     
-   <script src="<%= mix('/js/app.js') %>">pa</script>
+   <script src="<%= mix('/js/app.js') %>"></script>
   </body>
 </html>
