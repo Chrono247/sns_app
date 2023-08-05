@@ -1,0 +1,27 @@
+.post-form-container {
+  .h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .topic-form {
+    .form-control {
+      width: 100%;
+      border: 1px solid lightgray;
+      border-radius: 8px;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    
+    .form-label {
+      font-weight: bold;
+    }
+  }
+  
+  .button-group {
+    text-align: right;
+    .btn {
+      margin-top: 20px;
+    }
+  }
+}
